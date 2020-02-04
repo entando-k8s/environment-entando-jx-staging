@@ -1,7 +1,7 @@
 dependencies:
 - name: entando-de-app
   repository: http://jenkins-x-chartmuseum:8080
-  version: 6.0.21
+  version: 6.0.22
 - name: entando-k8s-controller-coordinator
   repository: http://jenkins-x-chartmuseum:8080
   version: 6.0.55
