@@ -1,13 +1,4 @@
 dependencies:
-- name: entando-de-app
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 6.0.29
-- name: entando-k8s-controller-coordinator
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 6.0.64
-- name: entando-k8s-service
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 6.0.4
 - alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
