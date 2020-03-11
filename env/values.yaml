@@ -13,7 +13,7 @@ expose:
   - --v
   - 4
   config:
-    domain: apps.serv.run
+    domain: stage.apps.serv.run
     exposer: Route
     http: "true"
     tlsacme: "false"
