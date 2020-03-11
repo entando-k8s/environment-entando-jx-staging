@@ -22,3 +22,7 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+test:
+  jxRequirements:
+    ingress:
+      domain: stage.apps.serv.run
