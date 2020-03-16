@@ -13,8 +13,8 @@ expose:
   - --v
   - 4
   config:
-    domain: stage.apps.serv.run
-    exposer: Route
+    domain: apps.serv.run
+    exposer: Ingress
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
