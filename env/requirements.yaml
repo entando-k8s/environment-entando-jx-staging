@@ -15,7 +15,7 @@ dependencies:
   version: 2.3.114
 - name: octo-easyclaim-mock
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.5
+  version: 0.0.6
 - name: octo-easyclaim-server
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.5
